@@ -1,0 +1,19 @@
+.navbar {
+    background-color: dimgray;
+    align-content: center;
+    position: sticky;
+    top: 0px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header {
+    text-align: center;
+}
+
+borderstyle {
+    border: 2px black !important;
+}
