@@ -2,7 +2,7 @@
     background-color: dimgray;
     align-content: center;
     position: sticky;
-    top: 0px;
+    top: 0;
 }
 
 img {
@@ -14,6 +14,23 @@ img {
     text-align: center;
 }
 
-borderstyle {
+.okraje {
     border: 2px black !important;
+}
+
+.onas {
+    color: darkred;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.hrubsie {
+    font-weight: bold;
+    background-color: gray;
+    color: white !important;
+}
+.stred {
+    text-align: center;
+    width: auto;
+
 }
