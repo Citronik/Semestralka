@@ -45,5 +45,10 @@ div.okraje {
 
 div.zaujimavsie {
     border-left: 6px solid gray;
+}
 
+div.footer {
+    background-color: gray;
+    text-align: center;
+    height: 30px;
 }
