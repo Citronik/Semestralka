@@ -3,6 +3,10 @@
     align-content: center;
     position: sticky;
     top: 0;
+    opacity: 0.5;
+}
+.navbar:hover {
+    opacity: 1;
 }
 
 img {
@@ -31,6 +35,8 @@ img {
 }
 .stred {
     text-align: center;
-    width: auto;
-
+    width: content-box;
+    margin-top: 100px;
+    padding-top: 100px;
 }
+
