@@ -18,8 +18,11 @@ img {
     text-align: center;
 }
 
-.okraje {
-    border: 2px black !important;
+div.okraje {
+    border-style: double !important;
+    border-width: 2px !important;
+    border-color: gray !important;
+    margin-top: 2px;
 }
 
 .onas {
@@ -40,3 +43,7 @@ img {
     padding-top: 100px;
 }
 
+div.zaujimavsie {
+    border-left: 6px solid gray;
+
+}
