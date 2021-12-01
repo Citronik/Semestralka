@@ -1,9 +1,9 @@
 .navbar {
-    background-color: dimgray;
+    background-color: darkgray;
     align-content: center;
     position: sticky;
     top: 0;
-    opacity: 0.5;
+    opacity: 0.6;
 }
 .navbar:hover {
     opacity: 1;
@@ -48,7 +48,23 @@ div.zaujimavsie {
 }
 
 div.footer {
-    background-color: gray;
+    background-color: dimgray;
     text-align: center;
     height: 30px;
+    opacity: 0.6;
+    position: relative;
+}
+
+div.footer:hover {
+    opacity: 1;
+}
+
+button {
+    background-color: darkgray !important;
+    border: white !important;
+    color: black !important;
+}
+
+button:hover {
+    color: white !important;
 }

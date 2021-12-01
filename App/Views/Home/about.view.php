@@ -1,40 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Latest compiled and minified CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Latest compiled JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="Styles.css">
-</head>
-<body>
-
-<nav class="navbar navbar-expand-sm navbar-dark ">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Frotinet</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Fortigate</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Prezentacie.html">Prezentácie</a>
-                </li>
-                <li class="nav-item navbar-dark">
-                    <a class="nav-link navbar-dark hrubsie" href="About.html">O nás</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-
-</nav>
 <div class="container-fluid mt-1 bg-light">
     <div class="header bg-light">
         <h1 class="onas">About us</h1>
@@ -49,7 +12,7 @@
         <div class="row">
             <div class="col-md-6 p-3 text-black bg-light">
                 <div class="header">
-                    <img src="Aboutus.png" width="720" height="720" alt="Security fabric">
+                    <img src="/Semestralka/public/files/Aboutus.png" width="720" height="720" alt="Security fabric">
                 </div>
             </div>
             <div class="col-xl-6 p-3 text-black bg-light stred">
@@ -74,8 +37,3 @@
         </div>
     </div>
 </div>
-<div class="footer">
-    <p>Forti</p>
-</div>
-</body>
-</html>

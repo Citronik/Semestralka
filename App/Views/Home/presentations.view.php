@@ -1,44 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Latest compiled and minified CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Latest compiled JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="Styles.css">
-</head>
-<body>
-
-<nav class="navbar navbar-expand-sm navbar-dark ">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Frotinet</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Fortigate</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link hrubsie" href="Prezentacie.html">Prezentácie</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="About.html">O nás</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
 <div class="container-fluid mt-1 bg-light">
     <div class="header bg-light">
         <h1>Some of our lections</h1>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid logged">
         <div class="row">
             <div class="col-md-12 p-3 text-black bg-light">
                 <div class="header">
@@ -52,25 +16,25 @@
             <div class="row mt-5">
                 <div class="col-lg-3 p-3 text-black bg-light">
                     <div class="header zaujimavsie">
-                        <img src="powerpoint.png" width="900" height="900" alt="Security fabric">
+                        <img src="/Semestralka/public/files/powerpoint.png" width="900" height="900" alt="Security fabric">
                         <h5 class="dole">1.Úvod do sietí</h5>
                     </div>
                 </div>
                 <div class="col-lg-3 p-3 text-black bg-light">
                     <div class="header zaujimavsie">
-                        <img src="powerpoint2.png" width="298" height="169" alt="Security fabric">
+                        <img src="/Semestralka/public/files/powerpoint2.png" width="298" height="169" alt="Security fabric">
                         <h5 class="dole">2.Pokročilé funkcie v sieťach</h5>
                     </div>
                 </div>
                 <div class="col-lg-3 p-3 text-black bg-light">
                     <div class="header zaujimavsie">
-                        <img src="powerpoint.png" width="900" height="900" alt="Security fabric">
+                        <img src="/Semestralka/public/files/powerpoint.png" width="900" height="900" alt="Security fabric">
                         <h5>3.Logovanie, monitorovanie, diagnostika</h5>
                     </div>
                 </div>
                 <div class="col-lg-3 p-3 text-black bg-light">
                     <div class="header zaujimavsie">
-                        <img src="powerpoint2.png" width="298" height="169" alt="Security fabric">
+                        <img src="/Semestralka/public/files/powerpoint2.png" width="298" height="169" alt="Security fabric">
                         <h5>4.Firewall</h5>
                     </div>
                 </div>
@@ -78,50 +42,50 @@
             <div class="row">
                 <div class="col-lg-3 p-3 text-black bg-light">
                     <div class="header zaujimavsie">
-                        <img src="powerpoint2.png" width="298" height="169" alt="Security fabric">
+                        <img src="/Semestralka/public/files/powerpoint2.png" width="298" height="169" alt="Security fabric">
                         <h5>5.Webové filtrovanie a proxy</h5>
                     </div>
                 </div>
                 <div class="col-lg-3 p-3 text-black bg-light">
                     <div class="header zaujimavsie">
-                        <img src="powerpoint.png" width="900" height="900" alt="Security fabric">
+                        <img src="/Semestralka/public/files/powerpoint.png" width="900" height="900" alt="Security fabric">
                         <h5>6.Aplikačná kontrola</h5>
                     </div>
                 </div>
                 <div class="col-lg-3 p-3 text-black bg-light">
                     <div class="header zaujimavsie">
-                        <img src="powerpoint2.png" width="298" height="169" alt="Security fabric">
+                        <img src="/Semestralka/public/files/powerpoint2.png" width="298" height="169" alt="Security fabric">
                         <h5>7.Antivírus, IDS, IPS</h5>
                     </div>
                 </div>
                 <div class="col-lg-3 p-3 text-black bg-light">
                     <div class="header zaujimavsie">
-                        <img src="powerpoint.png" width="900" height="900" alt="Security fabric">
+                        <img src="/Semestralka/public/files/powerpoint.png" width="900" height="900" alt="Security fabric">
                         <h5>8.VPN</h5>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-3 p-3 text-black bg-light">
                         <div class="header zaujimavsie">
-                            <img src="powerpoint2.png" width="298" height="169" alt="Security fabric">
+                            <img src="/Semestralka/public/files/powerpoint2.png" width="298" height="169" alt="Security fabric">
                             <h5>9.Vysoká dostupnosť (HA)</h5>
                         </div>
                     </div>
                     <div class="col-lg-3 p-3 text-black bg-light">
                         <div class="header zaujimavsie">
-                            <img src="powerpoint.png" width="900" height="900" alt="Security fabric">
+                            <img src="/Semestralka/public/files/powerpoint.png" width="900" height="900" alt="Security fabric">
                             <h5>10.Prevencia pred únikom dát (DLP)</h5>
                         </div>
                     </div>
                     <div class="col-lg-3 p-3 text-black bg-light">
                         <div class="header zaujimavsie">
-                            <img src="powerpoint2.png" width="298" height="169" alt="Security fabric">
+                            <img src="/Semestralka/public/files/powerpoint2.png" width="298" height="169" alt="Security fabric">
                             <h5>11.SSO a certifikáty</h5>
                         </div>
                     </div>
                     <div class="col-lg-3 p-3 text-black bg-light">
                         <div class="header zaujimavsie">
-                            <img src="powerpoint.png" width="900" height="900" alt="Security fabric">
+                            <img src="/Semestralka/public/files/powerpoint.png" width="900" height="900" alt="Security fabric">
                             <h5>12.Virtuálne siete</h5>
                         </div>
                     </div>
@@ -129,9 +93,8 @@
             </div>
         </div>
     </div>
+    <div class="header anonym">
+        <p class="align-content-center ">To see all of our presentations log in or create account
+        </p>
+    </div>
 </div>
-<div class="footer">
-    <p>Forti</p>
-</div>
-</body>
-</html>
