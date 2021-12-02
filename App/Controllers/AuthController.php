@@ -45,7 +45,7 @@ class AuthController extends RedirectController
         if (!Auth::isLogged()) {
             $username = $this->request()->getValue("username");
             $passwd = $this->request()->getValue("password");
-            if ($username & $passwd) {
+            if ($username || $passwd) {
                 $response = $auth->login($username, $passwd);
                 if ($response == " ") {
                     $this->redirectToHome();
@@ -55,6 +55,7 @@ class AuthController extends RedirectController
                     return;
                 }
             }
+            //echo "Fill in the name and username";
             $this->redirectToRegistration();
             return;
         } else {
@@ -80,7 +81,7 @@ class AuthController extends RedirectController
             $username = $this->request()->getValue("username");
         $passwd = $this->request()->getValue("password");
         $email = $this->request()->getValue("email");
-        if ($username & $passwd & $email) {
+        if ($username || $passwd || $email) {
             $response = $auth->registration($username, $passwd, $email);
             if ($response == "succesfull") {
                 $this->redirectToHome();
