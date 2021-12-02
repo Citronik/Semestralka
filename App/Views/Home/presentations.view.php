@@ -93,8 +93,13 @@
             </div>
         </div>
     </div>
-    <div class="header anonym">
+    <div class="container-fluid anonym">
         <p class="align-content-center ">To see all of our presentations log in or create account
         </p>
     </div>
+    <?php if (!\App\Auth::isLogged()) {?>
+    <script>checkDivForLogged("logged")</script>
+    <?php } else {?>
+        <script>checkDivForLogged("anonym")</script>
+    <?php }?>
 </div>

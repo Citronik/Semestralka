@@ -12,9 +12,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
     <script>
         function checkDivForLogged(userRole) {
-            var elements = document.querySelectorAll("div." + userRole);
+            //alert("." + userRole);
+            var elements = document.querySelectorAll("." + userRole);
             for(var i=0; i<elements.length; i++){
-                elements[i].style.display = "flex";
+                elements[i].style.display = "none";
             }
         }
 

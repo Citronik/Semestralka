@@ -77,7 +77,7 @@ class AuthController extends RedirectController
     {
         $auth = new Auth();
         if (!Auth::isLogged())
-        $username = $this->request()->getValue("username");
+            $username = $this->request()->getValue("username");
         $passwd = $this->request()->getValue("password");
         $email = $this->request()->getValue("email");
         if ($username & $passwd & $email) {
@@ -85,11 +85,15 @@ class AuthController extends RedirectController
             if ($response == "succesfull") {
                 $this->redirectToHome();
             } else if ($response == "email" || $response == "user") {
+                //$error = "Username already exists";
                 $this->redirectToRegistration();
+            } else {
+                //$error = "Already logged in";
+                $this->redirectToHome();
             }
-        } else {
-            $this->redirectToHome();
         }
+
+        $this->redirectToRegistration();
     }
 
     public function changeData()
@@ -122,3 +126,4 @@ class AuthController extends RedirectController
         $this->redirectToHome();
     }
 }
+
